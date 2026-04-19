@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BUSCH &amp; MELO — Maison de cosmética brasileira</title>
+<meta name="description" content="BUSCH & MELO. Maison brasileira de cosmética. Coleção Favo: mel de agrofloresta, Limeira." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="nav__mark">
+    <span class="nav__mark-full">BUSCH &amp; MELO</span>
+    <span class="nav__mark-mono">B&amp;M</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#colecao">coleção favo</a>
+    <a href="#origem">origem</a>
+    <a href="#manifesto">maison</a>
+  </nav>
+  <a href="#lista" class="nav__cta">lista de espera</a>
+</header>
+
+<section class="hero" id="top">
+  <video
+    class="hero__video hero__video--desktop"
+    src="assets/hero.mp4"
+    autoplay
+    muted
+    loop
+    playsinline
+    poster="assets/hero.png"
+  ></video>
+  <picture class="hero__bg-mobile">
+    <img class="hero__bg" src="assets/hero-mobile.png" alt="" />
+  </picture>
+  <div class="hero__overlay"></div>
+
+  <div class="hero__topline">
+    <span class="hero__locale">maison · limeira · brasil</span>
+  </div>
+
+  <div class="hero__tagline-wrap">
+    <div class="hero__collection">
+      <span class="hero__collection-label">primeira coleção</span>
+      <span class="hero__collection-name">Favo</span>
+    </div>
+    <p class="hero__desc">
+      cosmética de origem.<br />
+      mel de agrofloresta em formação.
+    </p>
+  </div>
+
+  <div class="hero__bottom">
+    <span>do favo para a pele</span>
+    <div class="hero__scroll">role<span class="hero__scroll-line"></span></div>
+  </div>
+</section>
+
+<section class="intro" id="origem">
+  <div class="intro__grid">
+    <div class="intro__label">01 — origem</div>
+    <h2 class="intro__text">
+      Plantamos espécies nativas. As abelhas polinizam. O mel que colhemos carrega a biodiversidade inteira desse sistema vivo.
+    </h2>
+    <div class="intro__meta">
+      <div><span>Bioma</span>Mata Atlântica · interior paulista</div>
+      <div><span>Mel</span>Polifloral · rastreável</div>
+      <div><span>Produção</span>Pequenos lotes · safra única</div>
+    </div>
+  </div>
+</section>
+
+<section class="collection-header" id="colecao">
+  <div class="collection-header__label">02 — coleção favo</div>
+  <h2 class="collection-header__title">cinco objetos<br />um gesto</h2>
+  <p class="collection-header__sub">
+    A primeira coleção da maison BUSCH &amp; MELO. Cinco peças esculpidas à mão, reunidas em torno de um mesmo ingrediente: o nosso mel.
+  </p>
+</section>
+
+<article class="product-feature" data-product="gota">
+  <div class="product-feature__image">
+    <img src="assets/gota.png" alt="A Gota — Óleo Capilar" />
+  </div>
+  <div class="product-feature__info">
+    <div class="product-feature__num">Favo I</div>
+    <h3 class="product-feature__name">A Gota</h3>
+    <p class="product-feature__type">óleo capilar — 30 ml</p>
+    <p class="product-feature__desc">
+      Mel silvestre polifloral e óleo de buriti. Cerâmica esculpida à mão, anel em latão escovado.
+    </p>
+  </div>
+</article>
+
+<article class="product-feature product-feature--dark" data-product="seixo">
+  <div class="product-feature__info">
+    <div class="product-feature__num">Favo II</div>
+    <h3 class="product-feature__name">O Seixo</h3>
+    <p class="product-feature__type">bálsamo labial — 12 g</p>
+    <p class="product-feature__desc">
+      Mel e própolis verde. Porcelana vitrificada com interior craquelê em ouro. Sistema de refil.
+    </p>
+  </div>
+  <div class="product-feature__image">
+    <img src="assets/seixo.png" alt="O Seixo — Bálsamo Labial" />
+  </div>
+</article>
+
+<article class="product-feature" data-product="coluna">
+  <div class="product-feature__image">
+    <img src="assets/coluna.png" alt="A Coluna — Óleo Corporal" />
+  </div>
+  <div class="product-feature__info">
+    <div class="product-feature__num">Favo III</div>
+    <h3 class="product-feature__name">A Coluna</h3>
+    <p class="product-feature__type">óleo corporal — 100 ml</p>
+    <p class="product-feature__desc">
+      Mel de laranjeira de Limeira e flor de laranjeira. Cerâmica alta esculpida. Aroma da nossa terra.
+    </p>
+  </div>
+</article>
+
+<article class="product-feature product-feature--dark" data-product="ambar">
+  <div class="product-feature__info">
+    <div class="product-feature__num">Favo IV</div>
+    <h3 class="product-feature__name">A Âmbar</h3>
+    <p class="product-feature__type">óleo facial — 30 ml</p>
+    <p class="product-feature__desc">
+      Sérum facial de mel raro. Vidro âmbar maciço, pipeta com bulbo em latão polido. A joia da coleção.
+    </p>
+  </div>
+  <div class="product-feature__image">
+    <img src="assets/ambar.png" alt="A Âmbar — Óleo Facial" />
+  </div>
+</article>
+
+<article class="product-feature" data-product="safra">
+  <div class="product-feature__image">
+    <img src="assets/favo-v.png" alt="A Safra — Perfume Capilar" />
+  </div>
+  <div class="product-feature__info">
+    <div class="product-feature__num">Favo V</div>
+    <h3 class="product-feature__name">A Safra</h3>
+    <p class="product-feature__type">perfume capilar — 75 ml</p>
+    <p class="product-feature__desc">
+      Perfume para os cabelos com notas de mel, flor de laranjeira e madeira clara. Vidro âmbar talhado, tampa escultural em latão polido. O aroma da nossa safra.
+    </p>
+  </div>
+</article>
+
+<section class="manifesto" id="manifesto">
+  <div class="manifesto__label">03 — a maison</div>
+  <p class="manifesto__text">
+    BUSCH &amp; MELO nasce em Limeira, fundada por duas sócias em torno de uma agrofloresta em formação. Cada coleção parte de um ingrediente da terra. A primeira é o mel. <span>Rastreável, raro, real.</span>
+  </p>
+  <div class="manifesto__pillars">
+    <div class="pillar"><span>I.</span>origem única</div>
+    <div class="pillar"><span>II.</span>regenerativo</div>
+    <div class="pillar"><span>III.</span>polifloral</div>
+    <div class="pillar"><span>IV.</span>rastreável</div>
+  </div>
+</section>
+
+<section class="waitlist" id="lista">
+  <div class="waitlist__image">
+    <img src="assets/seixo.png" alt="" />
+  </div>
+  <div class="waitlist__content">
+    <div class="waitlist__label">04 — lista de espera</div>
+    <h2 class="waitlist__title">a primeira safra<br />é limitada</h2>
+    <p class="waitlist__sub">
+      Deixe seu e-mail para receber acesso antecipado quando a Coleção Favo abrir.
+    </p>
+    <form class="waitlist__form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='reservado'; this.querySelector('input').value='';">
+      <input type="email" required placeholder="seu e-mail" />
+      <button type="submit">reservar →</button>
+    </form>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="foot__top">
+    <div class="foot__mark">BUSCH<br/>&amp; MELO</div>
+    <div class="foot__cols">
+      <div>
+        <span>contato</span>
+        ola@busch-melo.com
+      </div>
+      <div>
+        <span>origem</span>
+        limeira · são paulo
+      </div>
+      <div>
+        <span>social</span>
+        @buschemelo
+      </div>
+    </div>
+  </div>
+  <div class="foot__bottom">
+    <span>© busch &amp; melo 2026</span>
+    <span>maison de cosmética brasileira</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Higgsfield raw outputs (source files — only copies in assets/ are tracked)
+hf_*.png
+hf_*.mp4
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Claude memory (local only)
+.claude/
+memory/
