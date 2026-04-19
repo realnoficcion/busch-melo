@@ -87,11 +87,6 @@ a {
   display: none;
 }
 
-@media (max-width: 640px) {
-  .nav__mark-full { display: none; }
-  .nav__mark-mono { display: inline; font-size: 17px; }
-}
-
 .nav__links {
   display: flex;
   gap: 36px;
@@ -748,12 +743,26 @@ a {
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 900px) {
   .nav {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
     padding: 18px 20px;
   }
 
-  .nav__links {
+  .nav__mark {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+  }
+
+  .nav__links,
+  .nav__cta {
     display: none;
+  }
+
+  .hero__scroll {
+    display: none;
+  }
+
+  .hero__bottom {
+    justify-content: flex-start;
   }
 
   .hero picture,
