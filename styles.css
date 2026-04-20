@@ -744,7 +744,7 @@ a {
 @media (max-width: 900px) {
   .nav {
     grid-template-columns: 1fr;
-    padding: 18px 20px;
+    padding: 20px 20px 0;
   }
 
   .nav__mark {
@@ -792,18 +792,53 @@ a {
     max-width: 100%;
   }
 
-  .hero__bottom {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    bottom: 32px;
+  .hero__topline {
+    top: 56px;
+    padding: 0 20px;
   }
 
-  .hero__topline {
-    top: 72px;
+  .hero__locale {
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    opacity: 0.85;
+  }
+
+  .hero__tagline-wrap {
+    bottom: 120px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 14px;
+    padding: 0 20px;
+  }
+
+  .hero__collection {
+    gap: 8px;
+  }
+
+  .hero__collection-label {
+    font-size: 10px;
+    letter-spacing: 0.25em;
+  }
+
+  .hero__collection-name {
+    font-size: clamp(56px, 18vw, 96px);
+  }
+
+  .hero__desc {
+    font-size: 12px;
+    line-height: 1.6;
+    max-width: 260px;
+    text-align: left;
+    opacity: 0.78;
+  }
+
+  .hero__bottom {
+    bottom: 36px;
+    padding: 0 20px;
+    justify-content: flex-start;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    opacity: 0.85;
   }
 
   .intro__grid {
