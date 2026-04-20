@@ -172,13 +172,14 @@ a {
     height: 100%;
     overflow: hidden;
   }
-  .hero__bg-mobile .hero__bg--pan {
+  .hero__bg-mobile .hero__video--pan {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: auto;
     max-width: none;
+    object-fit: cover;
     animation: heroPan 14s ease-in-out infinite alternate;
   }
 }
@@ -188,8 +189,8 @@ a {
     transform: translateX(0);
   }
   100% {
-    /* Desliza a imagem pra esquerda revelando a parte direita.
-       O valor dinâmico é calculado pelo navegador: largura da imagem - 100vw */
+    /* Desliza o vídeo pra esquerda revelando a parte direita.
+       O valor dinâmico é calculado pelo navegador: largura - 100vw */
     transform: translateX(calc(100vw - 100%));
   }
 }
